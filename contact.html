@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #ffffff;
+        }
+
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 40px;
+        }
+
+        .contact-details {
+            flex: 1 1 45%;
+            margin: 15px;
+            padding: 25px;
+            background-color: #f9f9f9;
+            color: #333;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-details h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .contact-details p {
+            margin: 15px 0;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-details p i {
+            margin-right: 15px;
+            font-size: 20px;
+            color: #007bff;
+        }
+
+        .map {
+            flex: 1 1 45%;
+            margin: 15px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .map h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        .map iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 768px) {
+            .contact-details, .map {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <div class="contact-details">
+            <h2>Contact Us</h2>
+            <p><i class="fas fa-map-marker-alt"></i><span>Address: </span> &nbspJNV Colony Bikaner, Rajasthan, INDIA</p>
+            <p><i class="fas fa-phone"></i><span>Phone: </span>  &nbsp+91 96643 94699</p>
+            <p><i class="fas fa-envelope"></i><span>Email:</span> &nbspinfo.integersystem@gmail.com</p>
+        </div>
+        <div class="map">
+            <h2>Our Location</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7044.796751474492!2d73.35230955!3d28.012297399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393fe759e6947199%3A0x474344591b850490!2sJai%20Narayan%20Vyas%20Colony%2C%20Bikaner%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1737739425377!5m2!1sen!2sin"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>
+    <script>
+        console.log("Contact Us page loaded with professional design.");
+    </script>
+</body>
+</html>
